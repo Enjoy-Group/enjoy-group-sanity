@@ -32,37 +32,5 @@ export default {
         }]
       }]
     }
-    // {
-    //   name: 'featuredProject_1',
-    //   title: 'Featured Project 1',
-    //   type: 'reference',
-    //   to: [{type: 'project'}],
-    //   fieldset: 'featuredProjects'
-    // },
-    // {
-    //   name: 'featuredProject_2',
-    //   title: 'Featured Project 2',
-    //   type: 'reference',
-    //   to: [{type: 'project'}],
-    //   fieldset: 'featuredProjects'
-    // },
-    // {
-    //   name: 'featuredProject_3',
-    //   title: 'Featured Project 3',
-    //   type: 'reference',
-    //   to: [{type: 'project'}],
-    //   fieldset: 'featuredProjects'
-    // }
-    
-
-    // }
-    // {
-    //   name: 'featuredProjects',
-    //   title: 'Featured Projects',
-    //   type: 'array',
-    //   of: [{
-    //     type: 'project'
-    //   }]
-    // }
   ]
 }
