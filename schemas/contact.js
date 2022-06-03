@@ -10,6 +10,11 @@ export default {
       name: 'contactInformation',
       title: 'Contact Information',
       description: 'Contact information displayed on the website'
+    },
+    {
+      name: 'address',
+      title: 'Address',
+      description: 'Physical address information'
     }
   ],
   fields: [
@@ -34,11 +39,29 @@ export default {
       type: 'string',
       fieldset: 'contactInformation'
     },
+    // {
+    //   name: 'address',
+    //   title: 'Address',
+    //   type: 'string',
+    //   fieldset: 'contactInformation'
+    // },
     {
-      name: 'address',
-      title: 'Address',
+      name: 'addressLine1',
+      title: 'Address Line 1',
       type: 'string',
-      fieldset: 'contactInformation'
-    }
+      fieldset: 'address'
+    },
+    {
+      name: 'addressLine2',
+      title: 'Address Line 2',
+      type: 'string',
+      fieldset: 'address'
+    },
+    {
+      name: 'cityCode',
+      title: 'City Code',
+      type: 'string',
+      fieldset: 'address'
+    },
   ]
 }

@@ -6,6 +6,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import contact from './contact'
 import projects from './projects'
 import featuredProjects from './featuredProjects'
+import trustedBy from './trustedBy'
+import seo from './seo'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -17,6 +19,8 @@ export default createSchema({
     /* Your types here! */
     contact,
     projects,
-    featuredProjects
+    featuredProjects,
+    trustedBy,
+    seo
   ]),
 })

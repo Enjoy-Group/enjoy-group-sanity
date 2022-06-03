@@ -21,6 +21,15 @@ export default {
 
     },
     {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      fieldset: 'projectInfo',
+      options: {
+        source: 'projectName'
+      }
+    },
+    {
       name: 'projectDescription',
       title: 'Project Description',
       type: 'text',
@@ -47,5 +56,17 @@ export default {
       },
       fieldset: 'projectInfo'
     },
+    {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: [
+        {
+          name: 'tag',
+          title: 'Tag',
+          type: 'string'
+        }
+      ]
+    }
   ]
 }
