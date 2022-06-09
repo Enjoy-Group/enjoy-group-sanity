@@ -60,13 +60,13 @@ export default {
       name: 'tags',
       title: 'Tags',
       type: 'array',
-      of: [
-        {
-          name: 'tag',
-          title: 'Tag',
-          type: 'string'
-        }
-      ]
+      of: [{
+        type: 'reference',
+        to: [{
+          type: 'tags'
+        }]
+      }],
+      description: 'Categories the project falls into'
     }
   ]
 }

@@ -8,6 +8,7 @@ import projects from './projects'
 import featuredProjects from './featuredProjects'
 import trustedBy from './trustedBy'
 import seo from './seo'
+import tags from './tags'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,6 +22,7 @@ export default createSchema({
     projects,
     featuredProjects,
     trustedBy,
-    seo
+    seo,
+    tags
   ]),
 })

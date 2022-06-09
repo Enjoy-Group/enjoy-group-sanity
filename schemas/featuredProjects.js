@@ -24,13 +24,15 @@ export default {
     {
       name: 'featuredProjects',
       title: 'Featured Projects',
+      description: 'Projects that will appear on the homepage (maximum 3)',
       type: 'array',
       of: [{
         type: 'reference',
         to: [{
           type: 'project'
         }]
-      }]
+      }],
+      validation: Rule => Rule.max(3)
     }
   ]
 }
